@@ -7,7 +7,7 @@ export const Home = async () => {
             ${products
               .map(
                 (product) => `
-                <a href="#${product._id}/">
+                <a href="#${product._id}">
                   <article class="product-card"> 
                         <div class="product-img">
                           <img src="${product.img.url}">
