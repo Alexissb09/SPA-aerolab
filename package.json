@@ -1,7 +1,7 @@
 {
-  "name": "cientificos-spa",
+  "name": "spa-aerolab",
   "version": "1.0.0",
-  "description": "spa rest rick and morty",
+  "description": "spa aerolab",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
