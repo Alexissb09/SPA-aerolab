@@ -12,14 +12,12 @@ export const Product = async () => {
   const view = product
     ? `
     <div class="product-details">
-          <div class="product-details-img">
-            <img src="${product.img.url}">
-          </div>
+            <img src="${product.img.hdUrl}">
         
-          <div class="product-details-info">
-            <p>Name: ${product.name}<p>
-            <p>Category: ${product.category}<p>
-            <p>Cost: $${product.cost}<p>
+          <div>
+            <p><strong>Name:</strong> ${product.name}<p>
+            <p><strong>Category:</strong> ${product.category}<p>
+            <p><strong>Cost:</strong> $${product.cost}<p>
           <div>
     </div>
   `

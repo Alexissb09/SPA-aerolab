@@ -1,11 +1,13 @@
+import logo from "../assets/aerolab-logo.svg"
+
 const Header = () => {
   const view = `
         <div class="Header-main">
             <div class="Header-top">
                 <div class="Header-logo">
-                    <h1>
-                        <a href="/">img</a>
-                    </h1>
+                    <a href="/">
+                        <span><img src=${logo}></span>
+                    </a>
                 </div>
 
                 <div class="Header-nav">
@@ -14,7 +16,9 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <div class="Header-img">agregar imagen despues</div>
+            <div class="Header-img">
+               <h1>Electronics</h1>
+            </div>
         </div>   
     `;
   return view;
